@@ -26,9 +26,10 @@ function loader() {
 	document.querySelector(".loader-container").classList.add("fade-out");
 }
 function fadeOut() {
-	setInterval(loader, 2000);
+	setInterval(loader, 3000);
 }
 window.onload = fadeOut;
+// Implementacija canvas html-a i javascript
 let toRadians = (deg) => (deg * Math.PI) / 180;
 let map = (val, a1, a2, b1, b2) => b1 + ((val - a1) * (b2 - b1)) / (a2 - a1);
 
