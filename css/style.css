@@ -301,9 +301,8 @@ nav ul li:hover {
 }
 
 @media only screen and (max-width: 768px) {
-	section {
-		padding-left: 0;
-		padding-top: 0;
+	section.container-fluid {
+		padding-top: 1%;
 	}
 	/* NAVBAR Section */
 	#menu-icon {
@@ -419,9 +418,8 @@ nav ul li:hover {
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 920px) {
-	section {
-		padding-left: 0;
-		padding-top: 0;
+	section.container-fluid {
+		padding-top: 1%;
 	}
 	#menu-icon {
 		display: initial;
