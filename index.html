@@ -1,261 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- CSS connection -->
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<title>Foody Site</title>
-		<!-- Icons connection -->
-		<link
-			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-			rel="stylesheet"
-		/>
-		<!-- Font connection -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-			rel="stylesheet"
-		/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS connection -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Foody Site</title>
+    <!-- Icons connection -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font connection -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-		<!-- Boostrap connection -->
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
-			crossorigin="anonymous"
-		/>
-	</head>
-	<body>
-		<div class="loader-container col-12">
-			<canvas id="pizza"></canvas>
-		</div>
+    <!-- Boostrap connection -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="loader-container col-12">
+      <canvas id="pizza"></canvas>
+    </div>
 
-		<header class="w-100 container-fluid">
-			<div
-				class="container-fluid d-flex justify-content-between position-sticky top-0 p-5 custom-scale"
-			>
-				<a
-					href="index.html"
-					class="logo text-decoration-none text-center align-items-center"
-					>Foody
-				</a>
-				<div class="bx bx-menu" id="menu-icon"></div>
-				<nav class="navbar">
-					<ul
-						class="nav-link d-flex justify-content-center gap-5 text-decoration-none"
-					>
-						<li><a href="#home">Home</a></li>
-						<li><a href="#aboutUs">About Us</a></li>
-						<li><a href="#menu">Menu</a></li>
-						<li><a href="#service">Service</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
+    <header class="w-100 container-fluid">
+      <div
+        class="container-fluid d-flex justify-content-between position-sticky top-0 p-5 custom-scale"
+      >
+        <a
+          href="index.html"
+          class="logo text-decoration-none text-center align-items-center"
+          >Foody
+        </a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <nav class="navbar">
+          <ul
+            class="nav-link d-flex justify-content-center gap-5 text-decoration-none"
+          >
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutUs">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
 
-			<!-- HOME START-->
+      <!-- HOME START-->
+      <section class="home container-fluid w-100" id="home">
+        <div class="row d-flex justify-content-evenly w-100">
+          <div
+            class="home-text col-lg-6 col-12 col-md-12 align-items-center d-flex text-center flex-column p-5"
+          >
+            <h1>Good Foody <br />in Moody</h1>
+            <h2>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+              nihil fugit perspiciatis impedit reiciendis dolore, dolorem error
+              veniam autem eveniet illum cumque possimus quia omnis, placeat ex
+              consequatur totam ut!
+            </h2>
+            <button class="btn">Today's menu</button>
+          </div>
+          <div class="home-img col-lg-6 col-12 col-md-12 text-center">
+            <img src="Images/home.png" alt="Home Image" class="bx-image" />
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- ABOUT US START -->
+    <section
+      class="container-fluid about d-flex align-content-center"
+      id="aboutUs"
+    >
+      <div class="about-img col-lg-6 align-content-center text-center">
+        <img src="Images/about.png" alt="About Us image" />
+      </div>
+      <div class="about-text col-lg-6 col-12 p-5 col-md-12">
+        <h1>About Us</h1>
+        <h2>
+          We speak the good <br />
+          food language
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          ullam illum quidem impedit dolorem odio, explicabo blanditiis ipsa
+          reiciendis fugiat tempora aperiam voluptatibus, sed cumque obcaecati
+          reprehenderit pariatur molestias quia?
+        </p>
+        <button class="btn">Our gallery</button>
+      </div>
+    </section>
+    <!-- MENU SECTION START -->
+    <section class="container-fluid menu" id="menu">
+      <div class="heading justify-content-center text-center p-3">
+        <span>Food menu</span>
+        <h2>Fresh taste and great price</h2>
+      </div>
+      <div class="menu-container d-flex justify-content-center gap-5 flex-wrap">
+        <div class="box text-center col-lg-3 col-md-8 col-11">
+          <div class="box-img">
+            <img src="Images/food1.png" alt="Image of Food One" />
+            <h2>Chicken Burger</h2>
+            <h3>Tasty Food</h3>
+            <span>$11.00</span>
+            <i class="bx bx-cart-alt"></i>
+          </div>
+        </div>
+        <div class="box text-center col-lg-3 col-md-8 col-11">
+          <div class="box-img">
+            <img src="Images/food2.png" alt="Image of Food Two" />
+            <h2>Special Beef Burger</h2>
+            <h3>Tasty Food</h3>
+            <span>$12.00</span>
+            <i class="bx bx-cart-alt"></i>
+          </div>
+        </div>
+        <div class="box text-center col-lg-3 col-md-8 col-11">
+          <div class="box-img">
+            <img src="Images/food3.png" alt="Image of Food Three" />
+            <h2>Chicken Fry Pack</h2>
+            <h3>Tasty Food</h3>
+            <span>$9.00</span>
+            <i class="bx bx-cart-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
 
-			<section class="home container-fluid w-100" id="home">
-				<div class="row d-flex justify-content-evenly w-100">
-					<div
-						class="home-text col-lg-6 col-12 col-md-12 align-items-center d-flex text-center flex-column p-5"
-					>
-						<h1>Good Foody <br />in Moody</h1>
-						<h2>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-							nihil fugit perspiciatis impedit reiciendis dolore, dolorem error
-							veniam autem eveniet illum cumque possimus quia omnis, placeat ex
-							consequatur totam ut!
-						</h2>
-						<button class="btn">Today's menu</button>
-					</div>
-					<div class="home-img col-lg-6 col-12 col-md-12 text-center">
-						<img src="Images/home.png" alt="Home Image" class="bx-image" />
-					</div>
-				</div>
-			</section>
-		</header>
+    <!-- SERVICE SECTION START -->
+    <section class="container-fluid services" id="service">
+      <div
+        class="heading-service justify-content-center text-center p-3 col-12"
+      >
+        <span>Services</span>
+        <h2>We provide best food quality</h2>
+      </div>
+      <div
+        class="service-container d-flex justify-content-evenly w-100 text-center flex-wrap p-5"
+      >
+        <div class="s-box col-lg-2 col-12 col-md-8">
+          <img src="Images/s1.png" alt="Image of Services Order" />
+          <h3>Order</h3>
+          <p>
+            There are many of passages of Lorem Ipsum available but majority
+            have suffered alteration injected homour
+          </p>
+        </div>
+        <div class="s-box col-lg-2 col-12 col-md-8">
+          <img src="Images/s2.png" alt="Image of Services Shipping" />
+          <h3>Shipping</h3>
+          <p>
+            There are many of passages of Lorem Ipsum available but majority
+            have suffered alteration injected homour
+          </p>
+        </div>
+        <div class="s-box col-lg-2 col-12 col-md-8">
+          <img src="Images/s3.png" alt="Images of Services Delivered" />
+          <h3>Delivery</h3>
+          <p>
+            There are many of passages of Lorem Ipsum available but majority
+            have suffered alteration injected homour
+          </p>
+        </div>
+      </div>
+    </section>
 
-		<!-- ABOUT US START -->
+    <!-- LET'S TALK SECTION START -->
+    <section class="container-fluid col-12 col-md-12">
+      <div class="cta p-4">
+        <h2>We make quality food <br />Everyday</h2>
+        <button class="btn">Let's Talk</button>
+      </div>
+    </section>
 
-		<section
-			class="container-fluid about d-flex align-content-center"
-			id="aboutUs"
-		>
-			<div class="about-img col-lg-6 align-content-center text-center">
-				<img src="Images/about.png" alt="About Us image" />
-			</div>
-			<div class="about-text col-lg-6 col-12 p-5 col-md-12">
-				<h1>About Us</h1>
-				<h2>
-					We speak the good <br />
-					food language
-				</h2>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-					ullam illum quidem impedit dolorem odio, explicabo blanditiis ipsa
-					reiciendis fugiat tempora aperiam voluptatibus, sed cumque obcaecati
-					reprehenderit pariatur molestias quia?
-				</p>
-				<button class="btn">Our gallery</button>
-			</div>
-		</section>
-
-		<!-- MENU SECTION START -->
-
-		<section class="container-fluid menu" id="menu">
-			<div class="heading justify-content-center text-center p-3">
-				<span>Food menu</span>
-				<h2>Fresh taste and great price</h2>
-			</div>
-			<div class="menu-container d-flex justify-content-center gap-5 flex-wrap">
-				<div class="box text-center col-lg-3 col-md-8 col-11">
-					<div class="box-img">
-						<img src="Images/food1.png" alt="Image of Food One" />
-						<h2>Chicken Burger</h2>
-						<h3>Tasty Food</h3>
-						<span>$11.00</span>
-						<i class="bx bx-cart-alt"></i>
-					</div>
-				</div>
-				<div class="box text-center col-lg-3 col-md-8 col-11">
-					<div class="box-img">
-						<img src="Images/food2.png" alt="Image of Food Two" />
-						<h2>Special Beef Burger</h2>
-						<h3>Tasty Food</h3>
-						<span>$12.00</span>
-						<i class="bx bx-cart-alt"></i>
-					</div>
-				</div>
-				<div class="box text-center col-lg-3 col-md-8 col-11">
-					<div class="box-img">
-						<img src="Images/food3.png" alt="Image of Food Three" />
-						<h2>Chicken Fry Pack</h2>
-						<h3>Tasty Food</h3>
-						<span>$9.00</span>
-						<i class="bx bx-cart-alt"></i>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- SERVICE SECTION START -->
-
-		<section class="container-fluid services" id="service">
-			<div
-				class="heading-service justify-content-center text-center p-3 col-12"
-			>
-				<span>Services</span>
-				<h2>We provide best food quality</h2>
-			</div>
-			<div
-				class="service-container d-flex justify-content-evenly w-100 text-center flex-wrap p-5"
-			>
-				<div class="s-box col-lg-2 col-12 col-md-8">
-					<img src="Images/s1.png" alt="Image of Services Order" />
-					<h3>Order</h3>
-					<p>
-						There are many of passages of Lorem Ipsum available but majority
-						have suffered alteration injected homour
-					</p>
-				</div>
-				<div class="s-box col-lg-2 col-12 col-md-8">
-					<img src="Images/s2.png" alt="Image of Services Shipping" />
-					<h3>Shipping</h3>
-					<p>
-						There are many of passages of Lorem Ipsum available but majority
-						have suffered alteration injected homour
-					</p>
-				</div>
-				<div class="s-box col-lg-2 col-12 col-md-8">
-					<img src="Images/s3.png" alt="Images of Services Delivered" />
-					<h3>Delivery</h3>
-					<p>
-						There are many of passages of Lorem Ipsum available but majority
-						have suffered alteration injected homour
-					</p>
-				</div>
-			</div>
-		</section>
-
-		<!-- LET'S TALK SECTION START -->
-		<section class="container-fluid col-12 col-md-12">
-			<div class="cta p-4">
-				<h2>We make quality food <br />Everyday</h2>
-				<button class="btn">Let's Talk</button>
-			</div>
-		</section>
-
-		<!-- FOOTER SECTION START -->
-		<footer class="container-fluid" id="contact">
-			<div class="footer">
-				<div class="main d-flex flex-wrap justify-content-center w-100 p-5">
-					<div class="col-lg-2 footer-links col-10 col-md-5">
-						<h4 class="footer-title">Menu Links</h4>
-						<ul>
-							<li><a href="#">Home</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Menu</a></li>
-							<li><a href="#">Service</a></li>
-							<li><a href="#">Contact</a></li>
-						</ul>
-					</div>
-					<div class="col-lg-2 footer-links col-10 col-md-5">
-						<h4 class="footer-title">Our Services</h4>
-						<ul>
-							<li><a href="#">Web Design</a></li>
-							<li><a href="#">Web Development</a></li>
-							<li><a href="#">Marketing</a></li>
-							<li><a href="#">Product Menagment</a></li>
-							<li><a href="#">Graphic Design</a></li>
-						</ul>
-					</div>
-					<div class="col-lg-2 footer-links col-10 col-md-5">
-						<h4 class="footer-title">Information</h4>
-						<ul>
-							<li><a href="#">About Us</a></li>
-							<li><a href="#">Delivery Information</a></li>
-							<li><a href="#">Privacy Policy</a></li>
-							<li><a href="#">Terms & Conditions</a></li>
-						</ul>
-					</div>
-					<div class="col-lg-2 footer-links col-10- col-md-5">
-						<h4 class="footer-title-links">Contact Us</h4>
-						<div
-							class="social-links d-flex justify-content-evenly align-content-center"
-						>
-							<a href="https://sr-rs.facebook.com/" target="_blank"
-								><i class="bx bxl-facebook" style="color: #1877f2"></i
-							></a>
-							<a
-								href="https://www.instagram.com/accounts/login/?__coig_restricted=1"
-								target="_blank"
-								><i class="bx bxl-instagram" style="color: #fd594a"></i
-							></a>
-							<a href="https://twitter.com/?lang=sr" target="_blank"
-								><i class="bx bxl-twitter" style="color: #1d9bf0"></i
-							></a>
-							<a href="https://www.linkedin.com/" target="_blank"
-								><i class="bx bxl-linkedin" style="color: #fff"></i
-							></a>
-							<a href="https://www.youtube.com/" target="_blank"
-								><i class="bx bxl-youtube" style="color: red"></i
-							></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!-- JS Connection -->
-		<script type="text/javascript" src="js/script.js"></script>
-		<!-- Boostrap JS connection -->
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-			integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-			crossorigin="anonymous"
-		></script>
-	</body>
+    <!-- FOOTER SECTION START -->
+    <footer class="container-fluid" id="contact">
+      <div class="footer">
+        <div class="main d-flex flex-wrap justify-content-center w-100 p-5">
+          <div class="col-lg-2 footer-links col-10 col-md-5">
+            <h4 class="footer-title">Menu Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Menu</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 footer-links col-10 col-md-5">
+            <h4 class="footer-title">Our Services</h4>
+            <ul>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Product Menagment</a></li>
+              <li><a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 footer-links col-10 col-md-5">
+            <h4 class="footer-title">Information</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Delivery Information</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 footer-links col-10- col-md-5">
+            <h4 class="footer-title-links">Contact Us</h4>
+            <div
+              class="social-links d-flex justify-content-evenly align-content-center"
+            >
+              <a href="https://sr-rs.facebook.com/" target="_blank"
+                ><i class="bx bxl-facebook" style="color: #1877f2"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/accounts/login/?__coig_restricted=1"
+                target="_blank"
+                ><i class="bx bxl-instagram" style="color: #fd594a"></i
+              ></a>
+              <a href="https://twitter.com/?lang=sr" target="_blank"
+                ><i class="bx bxl-twitter" style="color: #1d9bf0"></i
+              ></a>
+              <a href="https://www.linkedin.com/" target="_blank"
+                ><i class="bx bxl-linkedin" style="color: #fff"></i
+              ></a>
+              <a href="https://www.youtube.com/" target="_blank"
+                ><i class="bx bxl-youtube" style="color: red"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JS Connection -->
+    <script type="text/javascript" src="js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
